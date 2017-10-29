@@ -1,0 +1,76 @@
+h1 {
+  color: #AAA;
+  margin: 0, auto;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  padding: 0.3em;
+  margin-left: 1em;
+  font-weight: 400;
+  font-family: monospace;
+}
+
+.y {
+  margin: 0.1em;
+  padding: 2px;
+  background-color: grey;
+  height: 1em;
+  width: 1em;
+  --float: left;
+  --clear: both;
+  --border: 1px solid green;
+}
+
+.x {
+  --clear: both;
+  float: left;
+  width: auto;
+  --border: 1px solid blue
+}
+
+#grid {
+  margin: auto;
+  --clear: both;
+  width: auto;
+  border: 2px solid grey;
+  padding: 1em;
+  float: left;
+  margin-left: 1%;
+}
+
+#controls {
+  border: 1px solid green;
+  --float: right;
+  margin: 3em;
+  padding: 1em 3em;
+  text-align: center;
+}
+
+button {
+  width: 6em;
+  height: 2em;
+  color: green;
+}
+
+body {
+  vertical-align: middle;
+}
+
+label {
+  font-family: sans-serif;
+  margin: 0.5em;
+}
+
+input {
+  margin: 0.5em;
+}
+
+#gridsize {
+  width: 4em;
+}
